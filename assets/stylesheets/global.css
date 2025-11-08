@@ -1,0 +1,140 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --accent-grey: #C2C2C2;
+    --accent-grey2: #F2EEF1;
+    --text-white: rgb(235, 235, 235);
+    --text-grey: rgb(58, 58, 58);
+    --primary-teal:#006E7F;
+    --primary-orange: #F58311;
+    --card1-grey: #A4A5A5;
+}
+
+@font-face {
+    font-family: 'yukon-tech';
+    src: url('/assets/fonts/YukonTechItalic-m2YKa.otf') format('truetype');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-body
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title
+{
+    font-size: 30px;
+    margin: 10px;
+    color: var(--primary-teal);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#navbar
+{
+    padding: 20px;
+    background-color: var(--accent-grey2);
+}
+
+#about
+{
+    height: 50vh;
+}
+
+/*-----------------------------------------------------------------
+    CARDS STYLES
+-----------------------------------------------------------------*/
+.cards-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*-----------------------------------------------------------------
+    CARD 1 STYLES
+-----------------------------------------------------------------*/
+.card1-wrapper
+{
+    height: 25vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card1-image
+{
+    height: 15vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+}
+
+.card1-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-grey);
+}
+/*-----------------------------------------------------------------
+    CARD 2 STYLES
+-----------------------------------------------------------------*/
+.card2-wrapper
+{
+    height: 25vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card2-image
+{
+    height: 20vh;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 1px 14px 2px rgba(0,0,0,0.3);
+}
+
+.card2-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-grey);
+    margin: 10px;
+}
